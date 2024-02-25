@@ -1,0 +1,6 @@
+packages:
+  - 'packages/*'
+  - 'components/**'
+  - 'apis/**'
+  - 'utils/**'
+  - '!**/test/**' # 不包含所有test目录下的文件 
