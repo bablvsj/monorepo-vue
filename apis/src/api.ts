@@ -1,6 +1,7 @@
-import axios, { AxiosInstance } from "axios";
+import axios from "axios";
+import { type AxiosInstance } from "axios";
 
-const api: AxiosInstance = axios.create({
+const api:AxiosInstance = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
